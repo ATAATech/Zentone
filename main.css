@@ -1,0 +1,11 @@
+.nav{
+    color: aliceblue;
+    background-color: rgba(55, 43, 180, 0.692)
+}
+.head{
+    margin-top: 10px;
+    text-align: center;
+}
+.about{
+    padding: 20px;
+}
