@@ -1,0 +1,115 @@
+.hw{
+    
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hw>label{
+    
+    animation-name: welcome;
+    animation-duration: 1s;
+}
+.abouth{
+    margin-top:10px;
+    padding-bottom: 3px;
+    border-bottom: #1962AE solid 1px;
+}
+.about{
+    font-size: 14px;
+    padding: 10px
+}
+.zlogo{
+    margin: 10px;
+    width:120px;
+}
+.clogo{
+    width:20px;
+
+}
+.qulinks{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #2FAEEE solid 1px;
+}
+.list{
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    font-size: 15px;
+    color: #1962AE;
+}
+.hw>img{
+    
+    animation-name: welcome;
+    animation-duration: 2s;
+}
+.qkl{
+    margin: 2px
+}
+.zname{
+    
+
+    width:120px;
+}
+
+    
+    
+
+@keyframes welcome {
+    0% {opacity: 0}
+   
+    100% {opacity: 1}
+}
+.sc1{
+    height: 100%;
+    text-align: center;
+}
+.ft1{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    animation-name: welcome;
+    animation-duration: 3s;
+}
+.prlist{
+    width:220px;
+    border: #2FAEEE solid 1px;
+}.ourprlist{
+    margin-bottom: 20px;
+}
+.box{
+    justify-content: center;
+    padding: 5px;
+    display:flex;
+    flex-direction: column;
+}
+.likethese{
+    text-align:center;
+    border-bottom: #2FAEEE solid 1px;
+}
+.boxitem{
+    
+    
+    
+    text-align: center;
+}.homeitems{
+    width: 105px;
+    height: 105px;
+}
+.hq{
+    width: 130px;
+    height: 130px;
+}
+#fullpage {
+      height: 100vh;
+      overflow: hidden;
+    }
+ 
+    
+    #fullpage section { height: 100vh; }
+    
