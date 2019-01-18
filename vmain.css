@@ -189,7 +189,7 @@ a{
     border-radius: 10px;
 }
 .prbg{
-    background-image: url(probg.png);
+    background-image: url('./probg.png');
 }
 .homebg{
     background-color: #eee;
