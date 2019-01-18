@@ -8,55 +8,84 @@
     text-align: center;
 }
 
-.hw>label{
+.hw>h4{
     
     animation-name: welcome;
     animation-duration: 1s;
 }
 .abouth{
-    margin-top:10px;
+    margin-top:20px;
     padding-bottom: 3px;
     border-bottom: #1962AE solid 1px;
 }
 .about{
-    font-size: 14px;
-    padding: 10px
+    font-size: 20px;
+    padding: 20px;
+    
 }
 .zlogo{
     margin: 10px;
-    width:120px;
+    margin-top: 30px;
+    width:150px;
 }
 .clogo{
-    width:20px;
+    width:35px;
 
 }
+.emph{
+    margin-left:5px;
+    font-size: 20px;
+}
+.footer{
+    
+    margin-top: 90px;
+    width: 100%;
+    text-align: center;
+}
+.catg{
+    width:140px;
+}
 .qulinks{
-    margin-top: 10px;
+    width:250px;
+    margin-left: 5px;
+    padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: #2FAEEE solid 1px;
 }
+
 .list{
     margin: 0;
     margin-left: 10px;
     padding: 0;
-    font-size: 15px;
-    color: #1962AE;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
 }
 .hw>img{
     
     animation-name: welcome;
     animation-duration: 2s;
 }
+.icons>a{
+    
+    margin-left: 5px;
+    color: #2FAEEE;
+}
+
 .qkl{
-    margin: 2px
+    height: 100vh;
+    color: white;
+   width: auto;
+    background-color: rgb(49, 49, 49);
 }
 .zname{
     
 
-    width:120px;
+    width:170px;
 }
 
-    
+  .zbar{
+      width:100px;
+  }  
     
 
 @keyframes welcome {
@@ -67,39 +96,53 @@
 .sc1{
     height: 100%;
     text-align: center;
+
 }
 .ft1{
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
+   
+  
+    
     animation-name: welcome;
     animation-duration: 3s;
 }
 .prlist{
-    width:220px;
+    color: #333;
+    font-size: 20px;
+    width:250px;
     border: #2FAEEE solid 1px;
-}.ourprlist{
+}
+a{
+    text-decoration: none;
+}
+.ourprlist{
     margin-bottom: 20px;
 }
 .box{
     justify-content: center;
     padding: 5px;
     display:flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 .likethese{
+ 
     text-align:center;
     border-bottom: #2FAEEE solid 1px;
 }
+.box2{
+    
+    margin: 20px;
+    margin-top: 120px;
+  
+}
 .boxitem{
     
-    
+    margin-left: 10px;
+    margin-right: 10px;
     
     text-align: center;
 }.homeitems{
-    width: 105px;
-    height: 105px;
+    width: 170px;
+    height: 170px;
 }
 .hq{
     width: 130px;
@@ -113,3 +156,90 @@
     
     #fullpage section { height: 100vh; }
     
+.primg{
+    width:170px;
+    height: 170px;
+
+    
+}
+    .prname{
+        width:100%;
+        border-top: 2px #999 solid;
+    text-align: center;
+    color: #ccc;
+}
+.prcat{
+    color: #ccc;
+    text-align: center;
+    width:200px;
+    border-top:1px #aaa solid;
+    
+}
+.prbox{
+    width:90%;
+   
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    
+    margin: 5px 20px ;
+    padding: 10px;
+    border: 1px #666 solid;
+    border-radius: 10px;
+}
+.prbg{
+    background-image: url(./../img/pro\ bg.png)
+}
+.homebg{
+    background-color: #eee;
+}
+.dsk{
+    visibility: hidden;
+}
+@media screen  and (min-width:900px){
+    .dsk{
+        visibility: visible;
+    }
+  .qkl{
+      display: flex;
+      
+  }
+   .ft4{
+       flex:1;
+   }
+.ft5{
+    margin-top: 30px;
+}
+.udsk{
+    visibility: hidden;
+}
+.footer{
+    margin-top: 40px;
+    text-align: start;
+}
+.sc1{
+    display: flex;
+    justify-content: center;
+}
+.prbox{
+    width:400px;
+}
+
+}
+
+@media screen  and (min-width:600px){
+    .dskk{
+        visibility: visible;
+    }
+    .box{
+        width:70%;
+        
+    }
+    .like{
+      height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
